@@ -1,0 +1,1 @@
+const D={es:{},pt:{},it:{},fr:{},de:{},rm:{}};function setLang(l){document.documentElement.lang=l;localStorage.sf_lang=l}document.addEventListener("DOMContentLoaded",()=>{let s=document.getElementById("lang");if(s){s.value=localStorage.sf_lang||"es";s.onchange=()=>setLang(s.value)}});
